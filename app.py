@@ -48,7 +48,7 @@ p {{ max-width: 360px; line-height: 1.6; }}
 .accent {{ color: #00e5ff; }}
 </style></head>
 <body>
-<p>This shade is not part of the official club glow.<br>
+<p>This shade is not part of the official club colors.<br>
 Keep exploring the <span class="accent">palette</span>.</p>
 </body></html>""",
         status=404,
