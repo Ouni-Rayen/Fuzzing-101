@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyan — SEC Club</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400;600&display=swap');
+
+        :root {
+            --navy: #070b1a;
+            --cyan: #00e5ff;
+            --lavender: #e8e0ff;
+            --white: #f5f3ff;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: radial-gradient(ellipse at center, #0d1230 0%, var(--navy) 70%);
+            color: var(--white);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .glow-box {
+            background: rgba(0, 229, 255, 0.08);
+            border: 1px solid rgba(0, 229, 255, 0.4);
+            border-radius: 20px;
+            padding: 3rem 2.5rem;
+            max-width: 520px;
+            box-shadow: 0 0 60px rgba(0, 229, 255, 0.25),
+                        0 0 120px rgba(0, 229, 255, 0.1);
+            position: relative;
+        }
+
+        .glow-box::before {
+            content: '';
+            position: absolute;
+            inset: -3px;
+            border-radius: 22px;
+            background: linear-gradient(135deg, var(--cyan), transparent, var(--lavender));
+            opacity: 0.35;
+            z-index: -1;
+            filter: blur(12px);
+        }
+
+        h1 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 2.2rem;
+            color: var(--cyan);
+            text-shadow: 0 0 30px rgba(0, 229, 255, 0.7);
+            margin-bottom: 1rem;
+            letter-spacing: 0.15em;
+        }
+
+        .subtitle {
+            color: var(--lavender);
+            margin-bottom: 2rem;
+            font-size: 1.05rem;
+        }
+
+        .flag {
+            font-family: 'Orbitron', monospace;
+            font-size: 1.35rem;
+            background: rgba(0, 0, 0, 0.4);
+            border: 1px solid rgba(0, 229, 255, 0.5);
+            border-radius: 10px;
+            padding: 1.2rem 1.5rem;
+            color: var(--cyan);
+            letter-spacing: 0.05em;
+            word-break: break-all;
+            box-shadow: inset 0 0 20px rgba(0, 229, 255, 0.1);
+        }
+
+        .hint {
+            margin-top: 2rem;
+            color: #8a8fa8;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="glow-box">
+        <h1>CYAN</h1>
+        <p class="subtitle">You found the true club color.</p>
+        <div class="flag">Securinets{F4di_Y4_b000000h4}</div>
+        <p class="hint">The glow never fades.</p>
+    </div>
+</body>
+</html>

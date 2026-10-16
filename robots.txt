@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /
+
+# Our club palette is carefully documented.
+# The full list of colors lives in a simple text file.
+# Can you locate the colors file?
